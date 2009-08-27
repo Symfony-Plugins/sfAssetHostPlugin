@@ -5,24 +5,27 @@ By using the sfAssetHostPlugin you can easily host your static media elsewhere.
 
 Installation
 ------------
+    
 * Install the plugin
-
-  $ symfony plugin:install sfAssetHostPlugin
+  
+        $ symfony plugin:install sfAssetHostPlugin
     
 * Enable the helper
-    
-  [php]
-  use_helper('AssetHost)
+        
+        [php]
+        use_helper('AssetHost')
+        
+  or enable it in your settings.yml
     
 * Define the asset host in app.yml
-  
-  [php]
-  prod:
-    assets:
-      host: 'http://static.symfony-project.com/%s
+      
+        [php]
+        prod:
+          assets:
+            host: http://static.symfony-project.com/%s
     
 * Use it
-    
-  [php]
-  use_javascript_host('jquery.js')
-  use_stylesheet_host('style.css')
+        
+        [php]
+        use_javascript_host('jquery.js')
+        use_stylesheet_host('style.css')
