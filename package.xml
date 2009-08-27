@@ -12,8 +12,8 @@
   </lead>
   <date>2009-08-27</date>
   <version>
-    <release>0.1</release>
-    <api>0.1</api>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
   </version>
   <stability>
     <release>beta</release>
@@ -24,6 +24,7 @@
   <contents>
     <dir name="/">
       <file role="data" name="README" />    
+      <file role="data" name="LICENSE" />   
       <dir name="lib">
         <dir name="helper">
           <file role="data" name="AssetHostHelper.php" />
@@ -49,5 +50,22 @@
     </required>
   </dependencies>
   <phprelease></phprelease>
-  <changelog></changelog>
+  <changelog>
+    <release>
+      <version>
+        <release>0.0.1</release>
+        <api>0.0.1</api>
+      </version>
+      <stability>
+        <release>beta></release>
+        <api>beta</api>
+      </stability>
+      <license uri="http://www.symfony-project.org/license">MIT license</license>
+      <date>2009-08-27</date>
+      <license>MIT</license>
+      <notes>
+        * Initial Release
+      </notes>
+    </release>    
+  </changelog>
 </package>
